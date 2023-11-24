@@ -45,16 +45,11 @@ nav > div {
 button {
     width: 100%;
     height: 150px;
+    display: block;
     
 
 }
 
-.clothes {
-    width: auto;
-    height: 618.056px;
-    justify-content: center;
-
-}
 
 
 .email {
@@ -67,30 +62,30 @@ button {
     text-align: center;
     border-color: #747474;
     
+    
 }
     
 input {
     width: 543px;
     height: 53px;
     font-size: 20px;
-    font color:#000000;
+    
 }
 
-.clothes1 {
-    flex-direction: column;
+.tabela { 
     display: flex;
-    width: 500px;
-    height: 618.056px;
-    padding-left: 138px;
+    justify-content: center;
+    align-items: center;
+    gap: 165px;
     padding: 93px;
 }
 
 
-.clothes2 {
-    float: right;
-    display: flex;
-    width: 500px;
-    height: 618.056px;
-    
-    
+
+.x {
+ display: flex;
+ flex-direction: column;
+ gap: 131px;
 }
+
+
