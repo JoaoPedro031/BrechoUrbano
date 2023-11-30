@@ -1,21 +1,32 @@
-        @font-face {
+ * {
+    margin: 0; padding: 0;
+ }
+
+ @font-face {
           font-family: Grafitte;
           src: url(fonts/el_font_urban_calligraphy/Urban\ Calligraphy.ttf);
         }
+        
+@font-face {
+    font-family: Graffiti City;
+    src: url(fonts/graffiti_city/Graffiti\ City.otf);  
+}
+
 
 header {
-    background-color: #FFFF;
-    width: auto;
+    height: 100px;
+    width:auto ;
+    font-family: "Grafitte";
     display: flex;
     justify-content: space-between;
-    font-family: "Grafitte";
+    padding-top: 37px;
     
-
+    
 }
 
 
 a {
-    padding-top: 37px;
+    
     padding-left: 40px;
     color: black;
     font-size: 40px;
@@ -23,36 +34,31 @@ a {
     
 }
 
+
+
 .icons {
-    padding-top: 37px;
-    padding-right: 56px;
-    width: auto;
-    height: auto;
-    display: flex;
-    gap: 20px;
+   display: flex;
+   gap: 20px;
+   height: 45px;
+   padding-right: 56px;
    
 }
 
-nav{
+.link {
     background-color: #D9D9D9;
     display: flex;
-    justify-content: center;
     align-items: center;
-    
-    
-    
-}
-.link {
-    display: flex;
-    
-
-}
-
-
-.news {
-    
+    gap: 207px;
+    height: 100px;
     width: 100%;
-    height: 1050px; 
+    justify-content: center;
+    font-family: "Grafitte City"
+    
+}
+
+
+.news {  
+    height: 100%;
 }
 
 button {
@@ -60,7 +66,6 @@ button {
     height: 150px;
     display: block;
     
-
 }
 
 
@@ -71,10 +76,11 @@ button {
     font-family: Arial, Helvetica, sans-serif;
     font-weight: bold;
     border-style: solid;
+    border-left: none;
+    border-right: none;
     height: 208px;
     text-align: center;
     border-color: #747474;
-    
     
 }
     
@@ -82,6 +88,7 @@ input {
     width: 543px;
     height: 53px;
     font-size: 20px;
+    margin-top: 34px;
     
 }
 
@@ -91,8 +98,9 @@ input {
     align-items: center;
     gap: 165px;
     padding: 93px;
-    
-    
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+   
 }
 
 
@@ -100,7 +108,29 @@ input {
 .clothes {
     display: flex;
     flex-direction: column;
-   
+    width: 543px;
+
+}
+
+.clothes > a {
+    font-size: 29px;
+    padding-top: 17px;
+    align-items: center;
+    
+    
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    gap: 106px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-top: 85px;
+    height: 350px;
+}
+.social {
+    padding-top: 11px;
+    
 }
 
 
